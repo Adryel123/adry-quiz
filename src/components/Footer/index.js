@@ -6,7 +6,8 @@ const FooterWrapper = styled.footer`
   padding: 20px;
   display: flex;
   align-items: center;
-  border-radius: 4px; 
+  border-radius: 4px;
+  margin-bottom: 24px;
   img {
     width: 58px;
     margin-right: 23px;
@@ -23,7 +24,7 @@ const FooterWrapper = styled.footer`
       text-decoration: underline;
     }
   }
-`;
+`
 
 export default function Footer(props) {
   return (
@@ -42,5 +43,5 @@ export default function Footer(props) {
         </a>
       </p>
     </FooterWrapper>
-  );
+  )
 }
